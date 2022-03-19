@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+ background-color: #f0f2f5;
+}
+/*----------------header--------------------*/
+header{
+  padding-top: -20px;
+  padding-bottom: -20px;
+
+}
+nav{
+  background-color: #fff;
+}
+header{
+  height:64px;
+}
+#logo{
+  font-size: 32px;
+}
+a{
+  text-decoration: none;
+  color:inherit;
+}
+#logo2{
+  margin-left: -8px;
+}
+ul{
+  display: flex;
+  flex-flow: row;
+}
+ul li{
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 16px;
+  margin-left: auto;
+  margin-right: 24px;
+}
+.item:hover{
+  background-color: rgb(33, 99, 161);
+  font-weight: 400;
+  color: white;
+  padding-left: 8px;
+  padding-right: 8px;
+ 
+}
+/*-----------------banner-------------------*/
+.main{
+    margin-bottom: 32px;
+}
+.headline{
+    font-family: 'Quintessential', cursive;
+    text-align: center;
+    margin-top: 30px;
+   
+}
+.secondhead{
+    font-family: 'Quintessential', cursive;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+#banner{
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#headlineh2{
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: 'Quintessential', cursive;
+    
+}
+/*--------------earlydays-------------------*/
+#earlydays{
+    margin-left: 20px;
+}
+#earlydaysimg{
+    height: 300px;
+
+}
+#earlydayspara{
+    margin-top: 10px;
+    background-color:ghostwhite;
+    padding: 5px;
+}
+
+#font{
+    font-family: 'Quintessential', cursive;
+}
+#earlydaysbackground{
+    background-color: rgb(233, 233, 233);
+    border:rgb(233, 233, 233);
+}
+/*------------family------------------------*/
+#family{
+    margin-left: -20px;
+}
+#familyback{
+    background-color:#fff;
+}
+.imgfamily{
+    background-image:url("./family1.jpg");
+    background-size: cover;
+}
+#familypara{
+    margin-top: 5px;
+    padding: 5px;
+}
+/*--------carrier--------------*/
+#carrier{
+        justify-content: center;
+        margin-left:5%;
+        width:1200px;   
+}
+.carriercard{
+  margin-bottom: -10px;
+}
+/*----------------timeline----------------*/
+.time-line-box {
+    height: 100px; 
+    padding: 100px 0;
+    width: 100%;
+    background-color: #dadefe;
+  }
+  
+  .time-line-box .timeline {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .time-line-box .timestamp {
+    margin: auto;
+    margin-bottom: 5px;
+    padding: 0px 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .time-line-box .status {
+    padding: 0px 10px;
+    display: flex;
+    justify-content: center;
+    border-top: 3px solid #455EFC;
+    position: relative;
+    transition: all 200ms ease-in;
+  }
+  .time-line-box .status span {
+    padding-top: 8px;
+  }
+  .time-line-box .status span:before {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background-color: #455EFC;
+    border-radius: 12px;
+    border: 2px solid #455EFC;
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    transition: all 200ms ease-in;
+  }
+  
+  .swiper-container {
+    width: 95%; 
+    margin: auto;
+    overflow-y: auto;
+  }
+  .swiper-wrapper{
+    display: inline-flex;
+    flex-direction: row;
+    overflow-y:auto;
+    justify-content: center;
+  }
+  .swiper-container::-webkit-scrollbar-track{
+     background:#a8a8a8b6;
+  }
+  .swiper-container::-webkit-scrollbar{
+    height: 2px;
+  }
+  .swiper-container::-webkit-scrollbar-thumb{
+     background: #4F4F4F !important;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 12px;
+    width: 200px;
+    height: 100%;
+    position: relative;
+  }
+/*-----------------more info----------*/
+#moreinfo{
+  text-align:center;
+  background-color: #dadefe;
+  font:#fff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/*------------------books--------------*/
+.books{
+    margin-top: 30px;  
+    margin-left: 150px;
+}
+#bookheadline{
+    font-family: 'Quintessential', cursive;
+    margin-bottom: 15px;
+}
+#book1{
+  margin-left: -12px;
+}
+#book3{
+ width:136px;
+ margin-left: -12px;
+}
+#cardbackground{
+  background-color:#dadefe;
+  
+}
+button{
+  background-color: hsl(212, 100%, 77%);
+  color:#000;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 5px
+}
+footer{
+  text-align: center;
+}
+
